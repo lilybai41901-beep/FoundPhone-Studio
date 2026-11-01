@@ -751,6 +751,10 @@ svg {
     #b7bfa9
   );
 }
+
+.wallpaper-custom {
+  background: #202020 url("https://i.ibb.co/xSnc9WPT/884254167.jpg") center / cover no-repeat;
+}
 .wallpaper-orb {
   position: absolute;
   pointer-events: none;
