@@ -2097,15 +2097,30 @@ label {
   padding: 22px 28px;
 }
 .wallpaper-options {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(58px, 1fr));
   gap: 12px;
 }
 .wallpaper-options button {
-  width: 65px;
+  width: 100%;
+  min-width: 0;
   height: 88px;
   border-radius: 9px;
   border: 3px solid transparent;
   color: #fff;
+  position: relative;
+}
+.wallpaper-options .wallpaper-custom::after {
+  content: "自定义";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  text-shadow: 0 1px 4px #000;
 }
 .wallpaper-options .chosen {
   border-color: #4d6944;
