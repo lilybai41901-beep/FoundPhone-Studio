@@ -1,37 +1,21 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "bam-found-phone",
+  "title": "捡到她的手机",
+  "description": "原创虚构互动故事：你意外捡到金融圈富二代 Bam 的手机，通过聊天、社交动态、邮件与生活记录，逐渐拼凑出她与联姻妻子从商业婚姻走向相爱的过程。所有私人记录和人物互动均为虚构创作。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "Bam",
+    "date": "2026-10-30",
+    "time": "21:18",
+    "battery": 68,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "theme": "light",
+    "notifications": true
   },
   "installedApps": [
     "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
     "contacts",
@@ -60,6 +44,7 @@
     "find",
     "calculator",
     "settings",
+    "wechat",
     "qq",
     "weibo",
     "redbook",
@@ -89,159 +74,288 @@
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "wife",
+      "name": "林知夏",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "Bam 的妻子。两家因商业合作安排联姻，经营自己的家族投资事务。"
+    },
+    {
+      "id": "mali",
+      "name": "Mali",
+      "phone": "",
+      "avatar": "",
+      "bio": "Bam 多年的朋友，嘴上爱开玩笑，实际上很会观察她的情绪。"
+    },
+    {
+      "id": "assistant",
+      "name": "Nina",
+      "phone": "",
+      "avatar": "",
+      "bio": "Bam 的工作助理，负责会议、行程与文件安排。"
+    },
+    {
+      "id": "mother",
+      "name": "妈妈",
+      "phone": "",
+      "avatar": "",
+      "bio": "Bam 的母亲，重视家族关系与商业安排。"
+    },
+    {
+      "id": "colleague",
+      "name": "Krit",
+      "phone": "",
+      "avatar": "",
+      "bio": "金融圈同事，常与 Bam 讨论项目和市场。"
+    },
+    {
+      "id": "driver",
+      "name": "Somchai",
+      "phone": "",
+      "avatar": "",
+      "bio": "家里的司机，熟悉 Bam 的日常行程。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
+      "id": "line-wife",
       "app": "line",
-      "title": "测试会话",
+      "title": "知夏 ❤️",
       "participants": [
         "owner",
-        "test-contact"
+        "wife"
       ],
       "messages": [
         {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "w001",
+          "title": "",
+          "body": "你到家了吗？外面下雨了。",
+          "time": "20:42",
+          "sender": "林知夏",
+          "senderId": "wife",
+          "kind": "text",
+          "read": true
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "w002",
+          "title": "",
+          "body": "刚到。你今天不是说要晚一点回来？",
+          "time": "20:44",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "w003",
+          "title": "",
+          "body": "会议提前结束了。厨房给你留了汤，记得热一下。",
+          "time": "20:45",
+          "sender": "林知夏",
+          "senderId": "wife",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "w004",
+          "title": "",
+          "body": "你怎么知道我还没吃饭？",
+          "time": "20:46",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "w005",
+          "title": "",
+          "body": "因为你每次忙起来就会忘记。",
+          "time": "20:47",
+          "sender": "林知夏",
+          "senderId": "wife",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "w006",
+          "title": "",
+          "body": "……好，我现在去吃。你也早点休息。",
+          "time": "20:48",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "w007",
+          "title": "",
+          "body": "我等你一起。",
+          "time": "20:49",
+          "sender": "林知夏",
+          "senderId": "wife",
+          "kind": "text",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "line-mali",
+      "app": "line",
+      "title": "Mali",
+      "participants": [
+        "owner",
+        "mali"
+      ],
+      "messages": [
+        {
+          "id": "m001",
+          "title": "",
+          "body": "你们两个最近是不是有点不一样了？",
+          "time": "18:06",
+          "sender": "Mali",
+          "senderId": "mali",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "m002",
+          "title": "",
+          "body": "哪里不一样？",
+          "time": "18:08",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "m003",
+          "title": "",
+          "body": "以前你提到这场婚姻就一脸无所谓。现在你下班第一件事是回家。",
+          "time": "18:09",
+          "sender": "Mali",
+          "senderId": "mali",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "m004",
+          "title": "",
+          "body": "家里有人等，当然要回去。",
+          "time": "18:10",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "m005",
+          "title": "",
+          "body": "哇。Bam 居然会说这种话。截图保存了。",
+          "time": "18:10",
+          "sender": "Mali",
+          "senderId": "mali",
+          "kind": "text",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "line-assistant",
+      "app": "line",
+      "title": "Nina｜工作",
+      "participants": [
+        "owner",
+        "assistant"
+      ],
+      "messages": [
+        {
+          "id": "a001",
+          "title": "",
+          "body": "明天 9:30 与集团投资团队开会，资料已放进共享文件夹。",
+          "time": "16:32",
+          "sender": "Nina",
+          "senderId": "assistant",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "a002",
+          "title": "",
+          "body": "收到。下午的安排先空出来。",
+          "time": "16:34",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "a003",
+          "title": "",
+          "body": "好的。另外，林小姐刚刚来电，说晚餐想和您一起吃。",
+          "time": "16:35",
+          "sender": "Nina",
+          "senderId": "assistant",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "a004",
+          "title": "",
+          "body": "那我六点准时走。",
+          "time": "16:36",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "messages-mother",
+      "app": "messages",
+      "title": "妈妈",
+      "participants": [
+        "owner",
+        "mother"
+      ],
+      "messages": [
+        {
+          "id": "mm001",
+          "title": "",
+          "body": "周末两家一起吃饭，你和知夏都要来。",
+          "time": "昨天 19:12",
+          "sender": "妈妈",
+          "senderId": "mother",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "mm002",
+          "title": "",
+          "body": "我会和她一起过去。",
+          "time": "昨天 19:18",
+          "sender": "Bam",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        },
+        {
+          "id": "mm003",
+          "title": "",
+          "body": "你们结婚也有一段时间了，别总把工作放在第一位。",
+          "time": "昨天 19:19",
+          "sender": "妈妈",
+          "senderId": "mother",
+          "kind": "text",
+          "read": true
         }
       ]
     }
@@ -249,451 +363,345 @@
   "content": {
     "phone": [
       {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "call-01",
+        "title": "未接来电｜知夏",
+        "body": "今天 20:16 · 1 次未接来电",
+        "sender": "通话记录",
+        "kind": "call",
+        "time": "20:16"
+      },
+      {
+        "id": "call-02",
+        "title": "已接来电｜Mali",
+        "body": "今天 17:52 · 通话 06:18",
+        "sender": "通话记录",
+        "kind": "call",
+        "time": "17:52"
       }
     ],
     "contacts": [
       {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "contact-wife",
+        "title": "林知夏",
+        "body": "妻子｜紧急联系人。备注：她不喜欢香菜，喝咖啡不加糖。",
+        "sender": "通讯录",
+        "kind": "text"
+      },
+      {
+        "id": "contact-mali",
+        "title": "Mali",
+        "body": "好友｜认识很多年，知道 Bam 不擅长表达心事。",
+        "sender": "通讯录",
+        "kind": "text"
+      },
+      {
+        "id": "contact-assistant",
+        "title": "Nina",
+        "body": "工作助理｜会议与行程安排。",
+        "sender": "通讯录",
+        "kind": "text"
       }
     ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "photo-01",
+        "title": "周末晚餐",
+        "body": "两只餐盘靠得很近。照片边缘露出另一只手，手腕上戴着一条细银链。",
+        "sender": "相册",
+        "kind": "image",
+        "time": "昨天 20:31",
+        "meta": {
+          "album": "最近项目",
+          "note": "与知夏的晚餐"
+        }
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
+        "id": "photo-02",
+        "title": "海边的背影",
+        "body": "傍晚海边，两个人并肩站着。拍摄者没有入镜。",
+        "sender": "相册",
+        "kind": "image",
+        "time": "三天前",
+        "meta": {
+          "album": "旅行"
+        }
+      },
       {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "photo-03",
+        "title": "一张便签",
+        "body": "冰箱上的便签写着：记得吃早餐。——X",
+        "sender": "相册",
+        "kind": "image",
+        "time": "一周前",
+        "meta": {
+          "album": "生活"
+        }
       }
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-01",
+        "title": "家族合作会议要点",
+        "body": "1. 本季度联合投资项目进入尽调阶段。\n2. 双方团队保持独立决策。\n3. 对外口径由法务统一确认。\n\n这场婚姻最初也是从一份合作方案开始的。",
+        "sender": "备忘录",
+        "kind": "note",
+        "time": "10月28日"
+      },
+      {
+        "id": "note-02",
+        "title": "不要忘记",
+        "body": "知夏不喜欢香菜。\n她最近睡得很少，周五不要安排太晚的晚餐。\n她说想去看海，找个没有会议的周末。",
+        "sender": "备忘录",
+        "kind": "note",
+        "time": "10月29日"
+      },
+      {
+        "id": "note-03",
+        "title": "未完成的草稿",
+        "body": "我以前以为，只要把该做的事情做好，这段婚姻就算尽责。\n但现在我开始期待回家，也开始在意她是不是在等我。",
+        "sender": "备忘录",
+        "kind": "note",
+        "time": "今天 00:14"
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "cal-01",
+        "title": "集团投资委员会",
+        "body": "09:30–11:00 · 会议室 A · 项目风险与资产配置讨论",
+        "sender": "日历",
+        "kind": "event",
+        "time": "明天"
+      },
+      {
+        "id": "cal-02",
+        "title": "与知夏的晚餐",
+        "body": "19:00 · 家附近的意大利餐厅。备注：她说想吃手工意面。",
+        "sender": "日历",
+        "kind": "event",
+        "time": "周五"
+      },
+      {
+        "id": "cal-03",
+        "title": "两家家庭晚餐",
+        "body": "周六 18:30 · 双方父母与家族代表。",
+        "sender": "日历",
+        "kind": "event",
+        "time": "周六"
       }
     ],
     "mail": [
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
+        "id": "mail-01",
+        "title": "关于联合投资项目的会议资料",
+        "body": "发件人：Nina\n附件：投资项目摘要、风险评估、会议议程。\n请于明日上午会议前确认最终版本。",
+        "sender": "工作邮箱",
+        "kind": "email",
+        "time": "今天 15:40"
+      },
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "mail-02",
+        "title": "周末行程确认",
+        "body": "发件人：林知夏\n“如果你周末没有安排，我们可以去海边住一晚。不用特意准备什么，带上你就好。”",
+        "sender": "私人邮件",
+        "kind": "email",
+        "time": "昨天 22:07"
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
+        "id": "ig-01",
+        "title": "Bam · 2 小时前",
+        "body": "忙完一天，回到有灯等我的地方。",
+        "sender": "Bam",
+        "kind": "post",
+        "time": "19:10",
+        "likes": 238,
+        "comments": [
+          "Mali：最近很准时下班嘛。",
+          "Bam：有人管饭。",
+          "匿名好友：这语气不对劲哦。"
+        ]
+      },
       {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
+        "id": "ig-02",
+        "title": "Bam · 3 天前",
+        "body": "周末短暂逃离城市。海风、咖啡，还有很好的天气。",
+        "sender": "Bam",
+        "kind": "post",
+        "time": "周三",
+        "likes": 412,
+        "comments": [
+          "Mali：照片拍得不错。",
+          "Bam：摄影师很有耐心。"
+        ]
+      },
       {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "ig-03",
+        "title": "限时动态｜仅好友可见",
+        "body": "餐桌上有两杯咖啡，其中一杯没有加糖。",
+        "sender": "Bam",
+        "kind": "image",
+        "time": "今天 20:02"
       }
     ],
     "reddit": [
       {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "rd-01",
+        "title": "结婚以后，真的会慢慢喜欢上一个原本不熟悉的人吗？",
+        "body": "一开始只是家里安排的婚姻。双方都很理性，也约定好互不干涉。但最近发现自己会记住对方的习惯，会下意识等她回家。这样的变化算喜欢吗？",
+        "sender": "u/quiet_evening",
+        "kind": "post",
+        "time": "今天 18:26",
+        "likes": 186,
+        "comments": [
+          "有时候感情不是突然发生的，是日常一点点累积出来的。",
+          "你开始在意她的感受，而不只是履行约定，这已经说明很多了。",
+          "别急着给关系下定义，先认真对待现在的心情。"
+        ]
+      },
+      {
+        "id": "rd-02",
+        "title": "家族联姻里，如何保留自己的边界？",
+        "body": "两个人都来自重视家族利益的家庭。婚姻是合作的一部分，但生活仍然是自己的。想听听大家怎么平衡责任和个人选择。",
+        "sender": "u/financeandlife",
+        "kind": "post",
+        "time": "昨天 21:04",
+        "likes": 94,
+        "comments": [
+          "把重要的边界说清楚，比假装什么都不在意更健康。",
+          "家族可以安排相遇，但不能替你决定要不要相爱。"
+        ]
+      },
+      {
+        "id": "rd-03",
+        "title": "曼谷周末适合短途放松的地方？",
+        "body": "想找安静一点、能看海或靠近自然的地方。最好适合两个人临时出发。",
+        "sender": "u/weekendnotes",
+        "kind": "post",
+        "time": "10月27日",
+        "likes": 57,
+        "comments": [
+          "华欣可以考虑。",
+          "如果想安静一点，可以避开热门时段。"
+        ]
       }
     ],
-    "spotify": [
+    "twitter": [
       {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "x-01",
+        "title": "Bam",
+        "body": "有些习惯是在不知不觉中形成的。比如回家前，先问一句：你想吃什么？",
+        "sender": "Bam",
+        "kind": "post",
+        "time": "今天 20:11",
+        "likes": 126,
+        "comments": [
+          "Mali：懂了，某人有固定饭搭子了。",
+          "Bam：闭嘴。"
+        ]
+      },
+      {
+        "id": "x-02",
+        "title": "Mali",
+        "body": "最近有人开会看时间的次数变多了。以前可不是这样。",
+        "sender": "Mali",
+        "kind": "post",
+        "time": "今天 17:20",
+        "likes": 83,
+        "comments": [
+          "你最好是在说天气。",
+          "当然，我什么都没说。"
+        ]
       }
     ],
-    "netflix": [
+    "forum": [
       {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "forum-01",
+        "title": "金融行业工作强度与生活平衡讨论",
+        "body": "匿名用户：工作忙的时候，如何避免把压力带回家？\n回复：给自己设一个下班仪式，也给重要的人留出不被打断的时间。",
+        "sender": "职场讨论区",
+        "kind": "post",
+        "time": "今天 12:40",
+        "likes": 31,
+        "comments": [
+          "把日程留白也很重要。",
+          "真正的休息不是换个地方继续工作。"
+        ]
       }
     ],
-    "pinterest": [
+    "wallet": [
       {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "wallet-01",
+        "title": "家庭联名卡",
+        "body": "卡片尾号 2048 · 仅作为虚构剧情中的道具记录，不含真实支付信息。",
+        "sender": "钱包",
+        "kind": "text"
       }
     ],
-    "threads": [
+    "maps": [
       {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "map-01",
+        "title": "最近搜索",
+        "body": "家 → 办公室\n家 → 海边度假酒店\n家 → 意大利餐厅",
+        "sender": "地图",
+        "kind": "text"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-01",
+        "title": "今晚记得",
+        "body": "把知夏落在车里的外套带上楼。",
+        "sender": "提醒事项",
+        "kind": "note",
+        "time": "21:30"
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
+        "id": "rem-02",
+        "title": "周五",
+        "body": "预订两人晚餐。",
+        "sender": "提醒事项",
+        "kind": "note",
+        "time": "周五 17:00"
+      }
+    ],
+    "music": [
       {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
+        "id": "music-01",
+        "title": "最近播放",
+        "body": "Late Night Drive · Soft Piano · Sunday Morning",
+        "sender": "音乐",
+        "kind": "text"
+      }
+    ],
+    "weather": [
       {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
+        "id": "weather-01",
+        "title": "曼谷天气",
+        "body": "多云，晚间有阵雨。出门记得带伞。",
+        "sender": "天气",
+        "kind": "text"
       }
     ],
     "appstore": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "store-01",
+        "title": "已安装应用",
+        "body": "社交：LINE、Instagram、X、Reddit、Discord\n工作：邮件、日历、文件\n生活：地图、音乐、外卖",
+        "sender": "App Store",
+        "kind": "text"
       }
     ]
   },
-  "variables": {},
+  "variables": {
+    "story_language": "中文",
+    "story_viewpoint": "捡到手机的人",
+    "bam_identity": "金融圈富二代",
+    "marriage": "家族商业联姻",
+    "relationship_arc": "先婚后爱",
+    "fiction_notice": "所有私人记录均为原创虚构"
+  },
   "events": [],
   "tests": []
 }
